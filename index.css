@@ -1,0 +1,14 @@
+header{
+    margin-top: 18rem;
+    text-align: center;
+}
+
+nav{
+ display: flex;
+ justify-content: space-around;
+}
+
+.button {
+    width: 80%;
+    margin-top: 5px;
+}
