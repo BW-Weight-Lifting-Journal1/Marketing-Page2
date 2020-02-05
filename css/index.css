@@ -1,4 +1,21 @@
-
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
+@media (max-width:999px) {
+  .btn {
+    text-align: center;
+    margin-left: 280px;
+  }
+}
+@media (max-width:500px) {
+  .btn {
+    text-align: center;
+    margin-left: 110px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -174,7 +191,7 @@ h1 {
   font-size: 4rem;
 }
 header {
-  background-color: #02848E;
+  background-color: #02848e;
   align-items: center;
   color: #f5f749;
 }
@@ -241,7 +258,7 @@ footer {
   }
 }
 body {
-  background-color: #02848E;
+  background-color: #02848e;
 }
 @media (max-width:999px) {
   body h1 {
@@ -374,23 +391,5 @@ body {
   .topic .para3 .men {
     align-items: center;
     margin: 90px;
-  }
-}
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 300px;
-}
-@media (max-width:999px) {
-  .btn {
-    text-align: center;
-    margin-left: 280px;
-  }
-}
-@media (max-width:500px) {
-  .btn {
-    text-align: center;
-    margin-left: 110px;
   }
 }
